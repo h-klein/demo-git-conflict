@@ -13,7 +13,7 @@ def cli():
     """Command line interface"""
     parser = argparse.ArgumentParser(
         description="Demo for bioinformatics and genomics program at UO.")
-    parser.add_argument('phrase', help="What should I say?")
+    parser.add_argument('phrase', help="What should I say? (Or not say)")
     args = parser.parse_args()
     main(args.phrase)
 
